@@ -14,5 +14,5 @@ $ npm install
 ### Run Kitten Test
 To run the first example test (in Google Chrome):
 ```sh
-$ nightwatch -e chrome tests/firstTest.js
+$ nightwatch tests/findKittens.js
 ```
