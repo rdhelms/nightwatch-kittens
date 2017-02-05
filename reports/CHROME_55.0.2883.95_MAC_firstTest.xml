@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="firstTest"
+    errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
+    tests="2" time="18.59" timestamp="Sun, 05 Feb 2017 21:08:47 GMT">
+  
+    <testcase name="search google for fluffy kittens" time="13.04" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="search google for angry kittens in new window" time="5.558" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
