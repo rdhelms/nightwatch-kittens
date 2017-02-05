@@ -29,7 +29,7 @@ module.exports = {
         client.waitForElementVisible('#_fZl', 30000, function () {
           client.click('#_fZl', function () {
             client.waitForElementVisible('#resultStats', 30000, function () {
-              expect('Kittens', 'Found a problem!').to.contain('anger'); // Causes assertion error with custom message. Uses Chai.
+              // expect('Kittens', 'Found a problem!').to.contain('anger'); // Causes assertion error with custom message. Uses Chai.
               console.log(' \u2714 '.green + 'Fluffy Kittens have been found');  // Logs out green unicode checkmark using node colors module.
               /** This does scroll down on the window, but it's immediate and choppy **/
               // client.pause(1000);
